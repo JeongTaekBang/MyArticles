@@ -192,8 +192,6 @@ By incorporating these additional considerations, the IPS becomes more precise a
 
 # Pseudocode for Investment Policy Strategy
 ```pseudo
-# Pseudocode for Investment Policy Strategy
-
 # Core Parameters
 target_growth_rate = 0.06  # Annual growth rate target (6-8%)
 target_portfolio_size = 1000000  # Target portfolio size in dollars
