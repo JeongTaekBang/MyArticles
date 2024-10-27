@@ -27,6 +27,10 @@
 
 ## Investment Philosophy
 
+### Understanding Flag Bearers vs. Flag Bearer Candidates:
+- Flag Bearers are companies that have achieved significant milestones (e.g., market cap milestones like $1 trillion, $2 trillion) and are established leaders in the market.
+- Flag Bearer Candidates are those companies approaching these milestones but have not yet reached them, positioning them on the brink of substantial growth and market influence.
+
 ### Why Focus More on Flag Bearer Candidates than on Flag Bearers?
 The central question in strategic investing is why it is often better to focus on Flag Bearer Candidates rather than established Flag Bearers. The answer lies in understanding the dynamics of market leadership, growth potential, and the inherent fluidity of company standings within the market.
 
