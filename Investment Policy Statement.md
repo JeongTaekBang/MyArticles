@@ -162,45 +162,45 @@ This IPS represents a disciplined, high-growth strategy with a focus on resilien
 ---
 # Pseudo Code for Executing Portfolio Allocation in Python Format
 ```pseudo
-# Step 1: Define Key Parameters
-investment_horizon = 20  # years
-risk_tolerance = "high"
-cash_equivalents_allocation_range = (30, 50)  # percentage of portfolio
-flag_bearer_candidate_allocation_range = (50, 70)  # percentage of portfolio
+# Pseudo Code for Simple Portfolio Allocation Based on Key Metrics
 
-# Step 2: Define Selection Criteria for Flag Bearer Candidates
+# Step 1: Define Key Metrics Thresholds
+ROE_THRESHOLD = 15  # Minimum acceptable Return on Equity (%)
+CAGR_THRESHOLD = 10  # Minimum acceptable Compound Annual Growth Rate (%)
+INNOVATION_LEVEL_THRESHOLD = 7  # Minimum level for innovation to qualify
+
+# Step 2: Define Selection Criteria Function for Flag Bearer Candidates
 def is_flag_bearer_candidate(company):
     """
-    Function to determine if a company meets the selection criteria for Flag Bearer Candidates.
-    Selection Criteria:
-    1. Innovation-driven, high-growth firms.
-    2. Stable governance structures.
-    3. Founder-led with strong commitment traits.
+    Function to determine if a company is a suitable Flag Bearer Candidate.
+    Criteria:
+    1. ROE above the defined threshold.
+    2. CAGR above the defined threshold.
+    3. Innovation level above the defined threshold.
     """
     return (
-        company['innovation_level'] > 7 and
-        company['governance_stability'] == 'high' and
-        company['founder_led'] == True and
-        company['ceo_traits'] == 'obsessive'
+        company['ROE'] >= ROE_THRESHOLD and
+        company['CAGR'] >= CAGR_THRESHOLD and
+        company['innovation_level'] >= INNOVATION_LEVEL_THRESHOLD
     )
 
-# Step 3: Define Selection Criteria for Flag Bearers (Cash Equivalents)
+# Step 3: Define Selection Criteria Function for Flag Bearers (Cash Equivalents)
 def is_flag_bearer(company):
     """
-    Function to determine if a company meets the criteria for being a Flag Bearer.
-    Selection Criteria:
-    1. Established company with solid market cap.
-    2. Low volatility (low-beta stock).
+    Function to determine if a company is a suitable Flag Bearer (Cash Equivalent).
+    Criteria:
+    1. Established market position (high market cap).
+    2. Low volatility (beta < 1.0).
     """
     return (
-        company['market_cap'] > 500_000_000 and  # example threshold
-        company['beta'] < 1.0  # low-beta
+        company['market_cap'] > 500_000_000 and  # Example threshold for market cap
+        company['beta'] < 1.0  # Low volatility
     )
 
-# Step 4: Define Portfolio Allocation Strategy
+# Step 4: Define Portfolio Allocation Function
 def allocate_portfolio(companies):
     """
-    Function to allocate portfolio between Flag Bearer Candidates and Flag Bearers.
+    Function to allocate companies to Flag Bearer Candidates and Flag Bearers.
     """
     portfolio = {
         'flag_bearer_candidates': [],
@@ -212,64 +212,31 @@ def allocate_portfolio(companies):
             portfolio['flag_bearer_candidates'].append(company)
         elif is_flag_bearer(company):
             portfolio['flag_bearers'].append(company)
-
-    # Enforce allocation rules
-    total_value = len(portfolio['flag_bearer_candidates']) + len(portfolio['flag_bearers'])
-    
-    candidate_allocation = len(portfolio['flag_bearer_candidates']) / total_value * 100
-    bearer_allocation = len(portfolio['flag_bearers']) / total_value * 100
-    
-    # Validate Allocation Range
-    if not (flag_bearer_candidate_allocation_range[0] <= candidate_allocation <= flag_bearer_candidate_allocation_range[1]):
-        raise ValueError("Flag Bearer Candidate allocation is out of defined range.")
-    
-    if not (cash_equivalents_allocation_range[0] <= bearer_allocation <= cash_equivalents_allocation_range[1]):
-        raise ValueError("Cash equivalents (Flag Bearer) allocation is out of defined range.")
     
     return portfolio
 
-# Step 5: Execution - Select Companies and Allocate Portfolio
+# Step 5: Portfolio Allocation Example
 companies = [
-    {'name': 'Company A', 'innovation_level': 8, 'governance_stability': 'high', 'founder_led': True, 'ceo_traits': 'obsessive', 'market_cap': 400_000_000, 'beta': 1.2},
-    {'name': 'Company B', 'innovation_level': 9, 'governance_stability': 'high', 'founder_led': True, 'ceo_traits': 'obsessive', 'market_cap': 800_000_000, 'beta': 0.8},
-    {'name': 'Company C', 'innovation_level': 6, 'governance_stability': 'medium', 'founder_led': False, 'ceo_traits': 'normal', 'market_cap': 1_200_000_000, 'beta': 0.5},
+    {'name': 'Company A', 'ROE': 18, 'CAGR': 12, 'innovation_level': 8, 'market_cap': 400_000_000, 'beta': 1.2},
+    {'name': 'Company B', 'ROE': 20, 'CAGR': 15, 'innovation_level': 9, 'market_cap': 800_000_000, 'beta': 0.8},
+    {'name': 'Company C', 'ROE': 10, 'CAGR': 6, 'innovation_level': 5, 'market_cap': 1_200_000_000, 'beta': 0.5},
 ]
 
 portfolio = allocate_portfolio(companies)
 print("Allocated Portfolio:", portfolio)
 
-# Step 6: Cash Management Strategy
+# Step 6: Cash Management Function
 def manage_cash_equivalents(portfolio):
     """
-    Function to manage cash equivalents by determining liquidation opportunities.
+    Function to manage cash equivalents by reallocating them to high-growth candidates if opportunities arise.
     """
     for company in portfolio['flag_bearers']:
-        if is_high_potential_candidate(company):
-            # Liquidate cash equivalent to allocate to high-potential opportunity
+        if company['ROE'] >= ROE_THRESHOLD and company['CAGR'] >= CAGR_THRESHOLD:
+            # Reallocate cash equivalent to Flag Bearer Candidates if they meet high-growth potential criteria
             portfolio['flag_bearer_candidates'].append(company)
             portfolio['flag_bearers'].remove(company)
 
-# Helper function to determine if a cash equivalent should be liquidated
-def is_high_potential_candidate(company):
-    """
-    Determines if a company should be moved from Flag Bearers to Flag Bearer Candidates based on new opportunity.
-    """
-    return company['innovation_level'] >= 8  # Example threshold for high potential
-
-# Manage cash equivalents
+# Step 7: Execute Cash Management
 manage_cash_equivalents(portfolio)
-
 print("Updated Portfolio After Cash Management:", portfolio)
-
-# Step 7: Risk Management and Record Keeping
-def log_investment_decision(company, decision):
-    """
-    Logs decisions made for future reference.
-    """
-    with open('investment_log.txt', 'a') as log_file:
-        log_file.write(f"Company: {company['name']}, Decision: {decision}\n")
-
-# Example decision logging
-log_investment_decision(companies[0], "Allocated to Flag Bearer Candidates")
-log_investment_decision(companies[1], "Allocated to Cash Equivalent")
 ```
