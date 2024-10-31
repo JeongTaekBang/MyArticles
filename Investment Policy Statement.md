@@ -217,9 +217,9 @@ def allocate_portfolio(companies):
 
 # Step 5: Portfolio Allocation Example
 companies = [
-    {'name': 'Company A', 'ROE': 18, 'CAGR': 12, 'innovation_level': 8, 'market_cap': 400_000_000, 'beta': 1.2},
-    {'name': 'Company B', 'ROE': 20, 'CAGR': 15, 'innovation_level': 9, 'market_cap': 800_000_000, 'beta': 0.8},
-    {'name': 'Company C', 'ROE': 10, 'CAGR': 6, 'innovation_level': 5, 'market_cap': 1_200_000_000, 'beta': 0.5},
+    {'name': 'Company A', 'ROE': 18, 'CAGR': 12, 'innovation_level': 8,'founder_led': True, 'ceo_traits': 'obsessive', 'market_cap': 400_000_000, 'beta': 1.2},
+    {'name': 'Company B', 'ROE': 20, 'CAGR': 15, 'innovation_level': 9, 'founder_led': True, 'ceo_traits': 'obsessive', 'market_cap': 800_000_000, 'beta': 0.8},
+    {'name': 'Company C', 'ROE': 10, 'CAGR': 6, 'innovation_level': 5, 'founder_led': True, 'ceo_traits': 'obsessive', 'market_cap': 1_200_000_000, 'beta': 0.5},
 ]
 
 portfolio = allocate_portfolio(companies)
