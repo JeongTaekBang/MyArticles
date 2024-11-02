@@ -1,6 +1,6 @@
 ![JN_20241006.png](media/JN_20241006.png)
 
-## Preparing for a Career Transition in the AI Era
+# Preparing for a Career Transition in the AI Era
 
 As the landscape of technology evolves with AI and automation, many professionals feel the need to upskill and explore new career paths. If you’re looking to transition from your current role and stay relevant in this fast-paced world, here are practical steps to guide you:
 
