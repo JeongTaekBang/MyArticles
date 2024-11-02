@@ -1,6 +1,6 @@
 ![JN_20241010.png](media/JN_20241010.png)
 
-## The Balance Between Vision and Flexibility
+# The Balance Between Vision and Flexibility
 
 Having a clear vision of what you want to accomplish can be powerful. It provides direction, a sense of purpose, and a guiding light through uncertain times. But lately, I've come to understand that it's okay not to always have a perfectly defined picture of the future. Sometimes, living fully in the present moment is just as important.
 
