@@ -1,6 +1,8 @@
 ![JN_20241004.png](media/JN_20241004.png)
 
-# My Journal
+# My Plan for Consistent Growth in English
+
+## My Journal
 
 I've felt frustrated when I can't speak in English.  
 There are often cases where I have to speak in English, such as phone calls or meetings.  
