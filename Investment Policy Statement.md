@@ -113,6 +113,67 @@ The central question in strategic investing is why it is often better to focus o
   Regularly reassess portfolio allocation based on economic changes (e.g., GDP revisions or sector performance shifts). Set triggers, such as a 5% drop in ROE or underperformance in a sector, to prompt rebalancing.
 - **Adjustment Frequency**:  
   Quarterly reviews or when a major shift in GDP or company projections occurs.
+
+---
+
+## Cash Management Strategy
+
+### Cash Equivalents
+- **Policy:** Minimize cash holdings, instead using low-beta stocks in the Flag Bearer category as cash equivalents.
+- **Objective:** Maintain liquidity and stability while maximizing growth potential.
+- **Guidelines:** Liquidate cash equivalents only when high-potential investment opportunities arise in the Flag Bearer Candidate category, ensuring efficient capital deployment.
+
+### Tax and Profit Realization
+- **Policy:** Periodically realize profits and pay taxes, which reinforces gains and provides stability to the overall portfolio.
+- **Objective:** Enhance quality of life through disciplined investment, creating financial security while keeping the focus on long-term goals.
+
+---
+
+## Risk Management
+
+### Self-Discipline and Execution
+- **Policy:** Emphasize self-management as the primary risk factor. Maintain a disciplined approach to mitigate risks associated with decision-making and emotional influence.
+- **Execution Focus:** Prioritize the alignment of actions with the outlined strategy, with minimal focus on real-time profit/loss metrics to avoid distraction.
+
+### Leverage Avoidance
+- **Policy:** Avoid leverage to minimize compounded risks.
+- **Objective:** Maintain financial resilience by managing investments without leveraging, given the inherent risks associated with long-term growth strategies.
+
+---
+
+## Logging and Documentation
+
+### Self-Reflection and Use of GPT
+- **Policy:** Keep comprehensive records of investment decisions and strategies in an essay-like format to promote self-reflection.
+- **GPT Utilization:** Use GPT selectively in the refining process, avoiding dependency on it for initial drafts. Maintain independent, critical analysis as the core of decision-making.
+
+### Record-Keeping
+- **Guidelines:** Document every decision and thought process for future reference, challenging and validating insights to continuously improve strategic understanding.
+
+---
+
+## Quality of Life Considerations
+
+### Balancing Investment with Life Goals
+- **Objective:** The ultimate purpose of investing is to improve quality of life, both financially and personally.
+- **Policy:** Engage in activities outside of the market that bring joy and maintain mental resilience.
+- **Guidelines:** Regularly evaluate whether the investment journey contributes positively to overall well-being, adjusting as necessary.
+
+---
+
+## Performance Review and Benchmarking
+
+### Evaluation Metrics
+- **Growth Benchmarks:** Assess performance against major market indices and the progress of Flag Bearer Candidates relative to their milestones.
+- **Long-term Focus:** Use GDP and other economic indicators of countries invested in as markers for evaluating growth alignment.
+
+---
+
+## Conclusion: Commitment to Long-Term Resilience
+
+### Final Note
+This IPS represents a disciplined, high-growth strategy with a focus on resilience, founder-led companies, and forward-thinking investments in Flag Bearer Candidates. The commitment to governance quality, self-discipline, and thoughtful decision-making aligns with the ultimate objective: sustainable long-term growth and quality of life improvement.
+
 ---
 # Scenario-Based Portfolio Allocation Model
 
@@ -232,77 +293,39 @@ The final step involves calculating expected returns by weighting the different 
 ## Step 6: Incorporating Scenario Planning into a Binomial Tree Model
 
 ```plaintext
-                               GDP Scenario
+                         GDP Scenario
+                              |
+    --------------------------------------------------
+   |                          |                      |
+Above Average (30%)     Average (50%)        Below Average (20%)
+   |                          |                      |
+S&P 500 (+12%)        S&P 500 (+6%)          S&P 500 (+2%)
+   |                          |                      |
+Tech Sector (+18%)    Tech Sector (+10%)     Tech Sector (+4%)
+   |                          |                      |
+Consumer Staples (+8%)  Consumer Staples (+6%)  Consumer Staples (+3%)
+
+```
+
+### Updated Decision Tree
+- **Bayesian Probability** is a way to update our belief about an event happening by combining our initial belief (prior probability) with new evidence (likelihood) to get a revised belief (posterior probability).
+- After applying Bayes' Theorem, the updated decision tree for your investment strategy based on GDP growth looks like this:
+
+```plaintext
+
+                                Updated GDP Scenario
                                       |
                 ---------------------------------------------
                |                          |                  |
-    Above Average (30%)         Average (50%)       Below Average (20%)
+    Above Average (46.7%)       Average (44.4%)       Below Average (4.4%)
            |                          |                          |
-    S&P 500 (+10-12%)        S&P 500 (+5-7%)         S&P 500 (0-3%)
+    S&P 500 (+12%)        S&P 500 (+6%)         S&P 500 (+2%)
         |                          |                          |
-  Tech Sector (+15%)       Consumer Staples (+6%)     Utilities (+3%)
+  Tech Sector (+18%)       Consumer Staples (+6%)     Utilities (+3%)
   (AI Co: +20%)              (Company X: +8%)         (Company Y: +2%)
 ```
 ---
-## Cash Management Strategy
 
-### Cash Equivalents
-- **Policy:** Minimize cash holdings, instead using low-beta stocks in the Flag Bearer category as cash equivalents.
-- **Objective:** Maintain liquidity and stability while maximizing growth potential.
-- **Guidelines:** Liquidate cash equivalents only when high-potential investment opportunities arise in the Flag Bearer Candidate category, ensuring efficient capital deployment.
-
-### Tax and Profit Realization
-- **Policy:** Periodically realize profits and pay taxes, which reinforces gains and provides stability to the overall portfolio.
-- **Objective:** Enhance quality of life through disciplined investment, creating financial security while keeping the focus on long-term goals.
-
----
-
-## Risk Management
-
-### Self-Discipline and Execution
-- **Policy:** Emphasize self-management as the primary risk factor. Maintain a disciplined approach to mitigate risks associated with decision-making and emotional influence.
-- **Execution Focus:** Prioritize the alignment of actions with the outlined strategy, with minimal focus on real-time profit/loss metrics to avoid distraction.
-
-### Leverage Avoidance
-- **Policy:** Avoid leverage to minimize compounded risks.
-- **Objective:** Maintain financial resilience by managing investments without leveraging, given the inherent risks associated with long-term growth strategies.
-
----
-
-## Logging and Documentation
-
-### Self-Reflection and Use of GPT
-- **Policy:** Keep comprehensive records of investment decisions and strategies in an essay-like format to promote self-reflection.
-- **GPT Utilization:** Use GPT selectively in the refining process, avoiding dependency on it for initial drafts. Maintain independent, critical analysis as the core of decision-making.
-
-### Record-Keeping
-- **Guidelines:** Document every decision and thought process for future reference, challenging and validating insights to continuously improve strategic understanding.
-
----
-
-## Quality of Life Considerations
-
-### Balancing Investment with Life Goals
-- **Objective:** The ultimate purpose of investing is to improve quality of life, both financially and personally.
-- **Policy:** Engage in activities outside of the market that bring joy and maintain mental resilience.
-- **Guidelines:** Regularly evaluate whether the investment journey contributes positively to overall well-being, adjusting as necessary.
-
----
-
-## Performance Review and Benchmarking
-
-### Evaluation Metrics
-- **Growth Benchmarks:** Assess performance against major market indices and the progress of Flag Bearer Candidates relative to their milestones.
-- **Long-term Focus:** Use GDP and other economic indicators of countries invested in as markers for evaluating growth alignment.
-
----
-
-## Conclusion: Commitment to Long-Term Resilience
-
-### Final Note
-This IPS represents a disciplined, high-growth strategy with a focus on resilience, founder-led companies, and forward-thinking investments in Flag Bearer Candidates. The commitment to governance quality, self-discipline, and thoughtful decision-making aligns with the ultimate objective: sustainable long-term growth and quality of life improvement.
-
----
 # Pseudo Code for Portfolio Allocation with Weighted Scenario Planning and Rebalancing
 ```pseudo
 # Step 1: Define Key Metrics, Scenarios, and Allocation Ranges
@@ -314,7 +337,7 @@ INNOVATION_LEVEL_THRESHOLD = 7  # Minimum level for innovation to qualify
 FLAG_BEARER_CANDIDATE_ALLOCATION = (50, 70)  # Flag Bearer Candidate: 50-70% of portfolio
 FLAG_BEARER_ALLOCATION = (30, 50)  # Flag Bearer (cash equivalents): 30-50% of portfolio
 
-# GDP Scenario Probabilities
+# GDP Scenario Probabilities (prior probabilities)
 GDP_PROBABILITIES = {
     "above_average": 0.30,
     "average": 0.50,
@@ -326,6 +349,13 @@ GDP_SCENARIOS = {
     "above_average": 4.5,
     "average": 2.5,
     "below_average": 1.0
+}
+
+# Likelihoods for Low Inflation
+LOW_INFLATION_LIKELIHOODS = {
+    "above_average": 0.7,
+    "average": 0.4,
+    "below_average": 0.1
 }
 
 # Step 2: Define Expected Returns for Index and Sectors Based on GDP Scenarios
@@ -349,75 +379,90 @@ SECTOR_SCENARIO_RETURNS = {
     },
 }
 
-# Step 3: Define Selection Criteria Function for Flag Bearer Candidates
-def is_flag_bearer_candidate(company):
+# Step 3: Define Scenario Tree Structure
+def build_scenario_tree():
     """
-    Function to determine if a company is a suitable Flag Bearer Candidate.
-    Criteria:
-    1. ROE above the defined threshold.
-    2. CAGR above the defined threshold.
-    3. Innovation level above the defined threshold.
+    Build a binomial tree structure for economic scenarios.
+    This tree will contain the expected returns for different sectors and indexes based on the GDP growth scenario.
     """
-    return (
-        company['ROE'] >= ROE_THRESHOLD and
-        company['CAGR'] >= CAGR_THRESHOLD and
-        company['innovation_level'] >= INNOVATION_LEVEL_THRESHOLD
-    )
-
-# Step 4: Define Selection Criteria Function for Flag Bearers (Cash Equivalents)
-def is_flag_bearer(company):
-    """
-    Function to determine if a company is a suitable Flag Bearer (Cash Equivalent).
-    Criteria:
-    1. Established market position (high market cap).
-    2. Low volatility (beta < 1.0).
-    """
-    return (
-        company['market_cap'] > 500_000_000 and
-        company['beta'] < 1.0
-    )
-
-# Step 5: Calculate Weighted Average Return for a Given Company Based on GDP Scenario
-def calculate_weighted_return(company, gdp_probabilities, scenario_returns):
-    """
-    Function to calculate weighted average return for a company based on different GDP scenarios.
-    """
-    expected_return = 0
-    for scenario, probability in gdp_probabilities.items():
-        expected_return += probability * scenario_returns[scenario]
-    return expected_return
-
-# Step 6: Define Portfolio Allocation Function
-def allocate_portfolio(companies):
-    """
-    Function to allocate companies into Flag Bearer Candidates and Flag Bearers.
-    Adjust allocation based on defined ranges.
-    """
-    portfolio = {
-        'flag_bearer_candidates': [],
-        'flag_bearers': [],
+    tree = {
+        "GDP": {
+            "Above Average (30%)": {
+                "S&P 500 Return": INDEX_SCENARIO_RETURNS["above_average"],
+                "Technology Sector Return": SECTOR_SCENARIO_RETURNS["technology"]["above_average"],
+                "Consumer Staples Return": SECTOR_SCENARIO_RETURNS["consumer_staples"]["above_average"]
+            },
+            "Average (50%)": {
+                "S&P 500 Return": INDEX_SCENARIO_RETURNS["average"],
+                "Technology Sector Return": SECTOR_SCENARIO_RETURNS["technology"]["average"],
+                "Consumer Staples Return": SECTOR_SCENARIO_RETURNS["consumer_staples"]["average"]
+            },
+            "Below Average (20%)": {
+                "S&P 500 Return": INDEX_SCENARIO_RETURNS["below_average"],
+                "Technology Sector Return": SECTOR_SCENARIO_RETURNS["technology"]["below_average"],
+                "Consumer Staples Return": SECTOR_SCENARIO_RETURNS["consumer_staples"]["below_average"]
+            }
+        }
     }
+    return tree
 
-    for company in companies:
-        if is_flag_bearer_candidate(company):
-            portfolio['flag_bearer_candidates'].append(company)
-        elif is_flag_bearer(company):
-            portfolio['flag_bearers'].append(company)
-
-    # Validate allocation ranges and rebalance if necessary
-    total_value = len(portfolio['flag_bearer_candidates']) + len(portfolio['flag_bearers'])
-    candidate_allocation = len(portfolio['flag_bearer_candidates']) / total_value * 100
-    bearer_allocation = len(portfolio['flag_bearers']) / total_value * 100
-
-    if not (FLAG_BEARER_CANDIDATE_ALLOCATION[0] <= candidate_allocation <= FLAG_BEARER_CANDIDATE_ALLOCATION[1]):
-        raise ValueError("Flag Bearer Candidate allocation is out of defined range.")
+# Step 4: Calculate Weighted Returns Based on the Scenario Tree
+def calculate_weighted_returns(tree, probabilities):
+    """
+    Traverse the scenario tree and calculate the weighted expected return for each sector and the index.
+    """
+    weighted_returns = {}
     
-    if not (FLAG_BEARER_ALLOCATION[0] <= bearer_allocation <= FLAG_BEARER_ALLOCATION[1]):
-        raise ValueError("Flag Bearer allocation is out of defined range.")
+    for scenario, sectors in tree["GDP"].items():
+        # Match scenario probabilities by adjusting the scenario names
+        if "Above" in scenario:
+            scenario_prob = probabilities["above_average"]
+        elif "Average" in scenario:
+            scenario_prob = probabilities["average"]
+        elif "Below" in scenario:
+            scenario_prob = probabilities["below_average"]
+        
+        for sector, return_value in sectors.items():
+            if sector not in weighted_returns:
+                weighted_returns[sector] = 0
+            weighted_returns[sector] += scenario_prob * return_value
 
-    return portfolio
+    return weighted_returns
 
-# Step 7: Example: Portfolio Allocation
+# Step 5: Define Bayesian Update for Scenario Probabilities
+def bayesian_update(prior_probabilities, likelihoods, new_evidence_prob):
+    """
+    Function to update the GDP scenario probabilities using Bayesian probability.
+    new_evidence_prob = P(Low Inflation)
+    """
+    updated_probabilities = {}
+    total_probability = 0
+
+    # Calculate the posterior probability for each GDP scenario
+    for scenario, prior_prob in prior_probabilities.items():
+        likelihood = likelihoods[scenario]
+        updated_probabilities[scenario] = likelihood * prior_prob
+        total_probability += updated_probabilities[scenario]  # Denominator (P(B))
+
+    # Normalize the probabilities
+    for scenario in updated_probabilities:
+        updated_probabilities[scenario] /= total_probability
+
+    return updated_probabilities
+
+# Step 6: Run Bayesian Update with New Evidence (Low Inflation)
+updated_gdp_probabilities = bayesian_update(GDP_PROBABILITIES, LOW_INFLATION_LIKELIHOODS, new_evidence_prob=0.45)
+
+# Step 7: Recalculate Weighted Returns with Updated Probabilities
+scenario_tree = build_scenario_tree()
+weighted_returns = calculate_weighted_returns(scenario_tree, updated_gdp_probabilities)
+
+# Print updated expected returns
+print("Updated Weighted Expected Returns Based on Bayesian Update:")
+for sector, expected_return in weighted_returns.items():
+    print(f"{sector}: {expected_return:.2f}%")
+
+# Step 8: Portfolio Allocation Example
 companies = [
     {'name': 'AI Co', 'ROE': 18, 'CAGR': 12, 'innovation_level': 8, 'market_cap': 400_000_000, 'beta': 1.2},
     {'name': 'Tech Giant', 'ROE': 20, 'CAGR': 15, 'innovation_level': 9, 'market_cap': 1_000_000_000, 'beta': 0.8},
@@ -427,43 +472,9 @@ companies = [
 portfolio = allocate_portfolio(companies)
 print("Allocated Portfolio:", portfolio)
 
-# Step 8: Calculate Weighted Expected Return for Flag Bearer Candidate
-flag_bearer_candidate = {'name': 'AI Co', 'ROE': 18, 'CAGR': 12, 'innovation_level': 8}
-scenario_returns = {'above_average': 25, 'average': 12.5, 'below_average': 7}  # Example returns for the company
-expected_return = calculate_weighted_return(flag_bearer_candidate, GDP_PROBABILITIES, scenario_returns)
-print("Expected Return for AI Co:", expected_return)
+# Step 9: Adjust Portfolio Allocation Based on Updated Expected Returns
+adjust_portfolio_allocation(portfolio, weighted_returns)
 
-# Step 9: Cash Management Function
-def manage_cash_equivalents(portfolio):
-    """
-    Function to manage cash equivalents by reallocating them to high-growth candidates if opportunities arise.
-    """
-    for company in portfolio['flag_bearers']:
-        if company['ROE'] >= ROE_THRESHOLD and company['CAGR'] >= CAGR_THRESHOLD:
-            # Reallocate cash equivalent to Flag Bearer Candidates if they meet high-growth potential criteria
-            portfolio['flag_bearer_candidates'].append(company)
-            portfolio['flag_bearers'].remove(company)
-
-# Step 10: Execute Cash Management
-manage_cash_equivalents(portfolio)
-print("Updated Portfolio After Cash Management:", portfolio)
-
-# Step 11: Adjust Portfolio Allocation Based on Expected Returns
-def adjust_portfolio_allocation(portfolio, expected_returns):
-    """
-    Adjust the allocation of Flag Bearer Candidates and Flag Bearers based on expected returns.
-    """
-    if expected_returns['above_average'] > expected_returns['below_average']:
-        # If the above-average scenario has the highest expected return, increase exposure to candidates
-        target_candidate_allocation = FLAG_BEARER_CANDIDATE_ALLOCATION[1]  # Move towards 70% candidates
-        target_bearer_allocation = FLAG_BEARER_ALLOCATION[0]  # Move towards 30% bearers
-    else:
-        # If below-average scenario has the highest expected return, increase exposure to bearers
-        target_candidate_allocation = FLAG_BEARER_CANDIDATE_ALLOCATION[0]  # Move towards 50% candidates
-        target_bearer_allocation = FLAG_BEARER_ALLOCATION[1]  # Move towards 50% bearers
-
-    # Adjust the actual portfolio allocation accordingly
-    # This would involve shifting capital between Flag Bearer Candidates and Flag Bearers
 ```
 
 ## Key Steps:
@@ -474,6 +485,8 @@ def adjust_portfolio_allocation(portfolio, expected_returns):
 - **Scenario-Based Returns:** Adjust the portfolio dynamically based on expected returns from the weighted average scenario planning.
 - **Portfolio Allocation Ranges:** Adjusted allocation for Flag Bearer Candidates (50-70%) and Flag Bearers (30-50%) with validation of the portfolio.
 - **Weighted Average Scenario Calculation:** For each company, weighted average expected return is calculated based on different GDP scenarios and associated probabilities.
-- **Rebalancing Process:** Cash equivalents (Flag Bearers) can be reallocated to Flag Bearer Candidates when certain conditions (such as ROE or CAGR) are met.
+- **Bayesian Update Function:** The bayesian_update function uses Bayes' Theorem to update the probabilities of GDP scenarios after receiving new evidence, such as a government report on low inflation.
+- **Updated GDP Probabilities:** The function bayesian_update calculates the posterior probabilities for each scenario.
+- **Weighted Returns Recalculation:** After updating the probabilities using Bayes' Theorem, the new weighted expected returns are calculated using the same tree structure. This will give you the updated return expectations based on the new scenario probabilities.
 
 This process integrates both risk management and growth opportunity identification using weighted scenarios and a binomial tree model to assess potential outcomes.
