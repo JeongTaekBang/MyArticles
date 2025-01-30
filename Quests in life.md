@@ -40,7 +40,7 @@ Just like in a game, progress in one path often unlocks achievements in others. 
 
 ## Understanding Sub-Quests
 
-While the main paths (원) remain until death, sub-quests are temporary:
+While the main paths remain until death, sub-quests are temporary:
 
 **Nature of Sub-Quests:**
 - Appear and disappear naturally
@@ -55,7 +55,7 @@ While the main paths (원) remain until death, sub-quests are temporary:
 
 ## Approaching Your Quests
 
-**Main Paths (원):**
+**Main Paths:**
 - Treat them as lifelong companions
 - Use them as guidance for decisions
 - Don't expect completion
