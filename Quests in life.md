@@ -4,7 +4,7 @@
 
 ## "Path of Growth" Quest  
 - Developing skills and knowledge
-- Career development  
+- Career development
 - Learning new things  
 
 ## "Path of Balance" Quest  
@@ -33,3 +33,7 @@ Just like in a game, progress in one path often unlocks achievements in others. 
 - Better **balance** (like good rest) helps you grow faster  
 - **Growth** often leads to moments of happiness  
 - **Happiness** gives you energy for maintaining balance  
+
+---
+[life-paths.mermaid](media/life-paths.mermaid)
+![JN_20250130-1.png](media/JN_20250130-1.png)
